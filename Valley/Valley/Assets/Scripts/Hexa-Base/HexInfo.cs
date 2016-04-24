@@ -22,6 +22,7 @@ namespace Valley.Map
         void RenderTexture()
         {
             GetComponent<MeshRenderer>().material.mainTexture = texture;
+            GetComponent<MeshRenderer>().material.
         }
 #endif
 
