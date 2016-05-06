@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public float time;
 
+    //[Header("Lobby")]
+    //public string mapToLoad;
+
     #region singleton
     public static PlayerController Player
     {

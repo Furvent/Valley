@@ -87,9 +87,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0dbd78c52ee84b40971d697d92d06c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileX: 0
-  tileZ: 0
+  position:
+    x: 0
+    z: 0
   currentPath: []
+  goLine: {fileID: 0}
+  lineMat: {fileID: 2100000, guid: a3f0eb3922b788a4a990aeb84b236ea3, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
